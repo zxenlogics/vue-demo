@@ -5,3 +5,5 @@ var app = new Vue({
       message: 'Hello Vue!'
     }
   })
+
+  onReady(() => console.log('[app.js] Ready!!'));
